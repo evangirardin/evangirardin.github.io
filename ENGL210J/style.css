@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,700;1,500;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.mathnews {
+  height: 0.8em;
+  pointer-events: none;
+}
+
+.warning {
+  background-color: #f7c1c4;
+  outline-style: dashed;
+  outline-color: #945356;
+  padding: 0.5em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  color: #161616;
+  font-family: "Barlow", "Helvetica", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 36pt;
+}
+h1.withSubtitle {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 24pt;
+}
+h2.subtitle {
+  font-style: italic;
+  font-size: 16pt;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 30pt;
+}
+h2.subtitle .smaller {
+  font-size: 13pt;
+}
+
+img.flavor {
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 10px #121212;
+          box-shadow: 0px 0px 10px #121212;
+}
+
+figure {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+figure img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+figure figcaption {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+figure figcaption sup {
+  font-variant: normal;
+}
+
+p, li {
+  font-size: 15pt;
+  font-family: "Noto Serif", "Times New Roman", serif;
+}
+
+ol, ul {
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+}
+
+li + li, li + ul {
+  margin-top: 0.5em;
+}
+
+li + ul {
+  margin-bottom: 0.5em;
+}
+
+ol > li > ul {
+  margin-bottom: 0;
+}
+
+ol > li > ul > li {
+  margin-top: 0.5em;
+}
+
+a:link, a:visited {
+  color: #c60078;
+}
+a:hover {
+  color: #DF2498;
+}
+
+p > a {
+  -webkit-transition: color 0.05s;
+  transition: color 0.05s;
+}
+p > a:link, p > a:visited {
+  color: #161616;
+  text-decoration: underline;
+}
+p > a:hover {
+  color: #888888;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #eeeeee;
+  outline-style: solid;
+  outline-color: #cccccc;
+  outline-width: 1px;
+  padding: 1rem;
+}
+nav > h3 {
+  font-size: 16pt;
+  margin-top: 0.25em;
+}
+nav > ol {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h2 > a {
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: color 0.1s;
+  transition: color 0.1s;
+}
+h2 > a:link, h2 > a:visited {
+  color: #ffffff;
+}
+h2 > a:hover {
+  color: #ffffff;
+}
+
+h2:hover > a {
+  color: #aaaaaa;
+  -webkit-transition: color 0.1s;
+  transition: color 0.1s;
+}
+h2:hover > a:link, h2:hover > a:visited {
+  color: #aaaaaa;
+}
+h2:hover > a:hover {
+  color: #bbbbbb;
+}
+
+.articleContainer {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  max-width: 100%;
+}
+
+article {
+  max-width: 100%;
+  width: 50em;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,32 @@
+p, li {
+	font-size: 12pt;
+}
+
+h1 {
+	font-size: 28pt;
+	&.withSubtitle {
+		margin-bottom: 0;
+	}
+}
+h2 {
+	font-size: 18pt;
+	&.subtitle {
+		font-style: italic;
+		font-size: 13pt;
+		margin-top: 0;
+		margin-bottom: 28pt;
+		& .smaller {
+			font-size: 11pt;
+		}
+	}
+}
+nav {
+	background-color: #e6e6e6;
+	outline-style: solid;
+	outline-color: #cccccc;
+	outline-width: 1px;
+	padding: 1rem;
+	& > h2 {
+		font-size: 14pt;
+	}
+}
